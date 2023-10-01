@@ -3,6 +3,14 @@
     <head>
         <title>About me</title>
         <link href="./bootstrap4/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <style>
+          body {
+            background-color: rgb(229, 245, 138);
+          }
+          ul {
+            color : rgb(25, 0, 247);
+          }
+        </style>
     </head>
     <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -17,14 +25,14 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                  <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="./index.html">Blog</a>
+                  <a class="nav-link" href="./blog_list.html">Blog</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Me</a>
+                  <a class="nav-link" href="./about_me.html">About Me</a>
                 </li>
 
                 <li class="nav-item dropdown">
@@ -63,16 +71,24 @@
  
           <div class = "container">
             <div class= "row my-3">
-              <div class = "col-9">
+              <div class = "col-3">
+                <img src="./images/coco2.jpg" class="img-fluid w-100">
+              </div>
+              <div class = "col-6">
                 <h1>About Me</h1>
-                <h2>용인사람 최준혁입니다. </h2>
-                <p>HTML, CSS, JS, Django로 재미있는 웹사이트 만드는 것을 좋아합니다. </p>
-                <hr/>
+                <ul>
+                 <li><h3>이름 : 최준혁 </h3> </li>
+                <li> <h3>출생 : 2000.11.21</h3></li> 
+                <li><h3>거주지 : 경기도 용인</h3> </li> 
+                <li><h3>학교 및 학과 : 호서대학교 디지털기술<br>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp경영학과</h3> </li> 
+               <li><h3>애완동물 : 고양이 </h3> </li> 
+              </ul>
+              <hr>
                 <a href="index.html">첫 화면으로 가기</a>
                
               </div>
               <div class = "col-3">
-                <img src="./images/cat.jpg" class="img-fluid w-100">
+                <img src="./images/coco.jpg" class="img-fluid w-100">
               </div>
             </div>
             <div class="row">
